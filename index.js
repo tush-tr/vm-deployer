@@ -15,7 +15,6 @@ const GITHUB_REPO = process.argv[2];
 const composeFilePathGiven = process.argv[3] || "";
 
 const repoDirName = GITHUB_REPO.split("/")[4];
-console.log(repoDirName)
 const composeFilePath = composeFilePathGiven
   ? `${repoDirName}/${composeFilePathGiven}/docker-compose.yml`
   : `${repoDirName}/docker-compose.yml`;

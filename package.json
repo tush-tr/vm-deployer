@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/tush-tr/vm-deployer#readme",
   "dependencies": {
+    "node-cron": "^3.0.2",
     "simple-git": "^3.18.0"
   }
 }

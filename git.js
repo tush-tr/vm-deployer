@@ -25,7 +25,6 @@ const pullRepo = async (repoDirName) => {
 const checkChanges = async (repoDirName) => {
   const git = simpleGit(repoDirName);
   const diffSummary = await git.diffSummary(["HEAD~"]);
-  console.log(diffSummary);
   return diffSummary.changed > 0;
 };
 module.exports = {cloneRepo,pullRepo,checkChanges}

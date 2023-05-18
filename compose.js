@@ -1,4 +1,4 @@
-const { exec } = require("child_process");
+const { exec,spawn } = require("child_process");
 const runCompose = (composeFilePath) => {
   exec(
     `docker-compose -f ${composeFilePath} up --build -d`,

@@ -1,7 +1,7 @@
 {
   "name": "vmdeploy",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "A GitOps Continuous Delivery Tool for VMs.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

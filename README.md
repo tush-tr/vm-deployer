@@ -1,5 +1,9 @@
 # VMDeploy
+
+<img src="vmdeploy.png">
+
 ***A GitOps Continuous Delivery Tool for VMs.***
+
 
 vmdeploy is a command-line tool for deploying Dockerized applications on virtual machines. It automates the process of monitoring code repositories and deploying updated versions of the application to target virtual machines. With vmdeploy, you can easily manage your deployments without relying on complex CI/CD pipelines or Kubernetes clusters.
 

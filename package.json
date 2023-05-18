@@ -1,6 +1,6 @@
 {
   "name": "vmdeploy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A GitOps Continuous Delivery Tool for VMs.",
   "main": "index.js",
   "scripts": {

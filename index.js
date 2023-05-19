@@ -43,6 +43,7 @@ const main = async () => {
     await deployOnClone();
   }
 };
+main();
 cron.schedule("*/3 * * * *", () => {
   main();
 });

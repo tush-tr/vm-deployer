@@ -21,7 +21,7 @@ jobs:
           scope: '@octocat'
       - run: |
           echo $NPM_CONFIG_USERCONFIG
-          mv $NPM_CONFIG_USERCONFIG ${{ github.GITHUB_WORKSPACE }}/.npmrc
+          cp $NPM_CONFIG_USERCONFIG .npmrc
           ls
           cat .npmrc
       - run: npm ci

@@ -20,6 +20,8 @@ jobs:
           registry-url: 'https://npm.pkg.github.com'
           scope: '@octocat'
       - run: |
+          echo $NPM_CONFIG_USERCONFIG
+          mv $NPM_CONFIG_USERCONFIG ${{ github.GITHUB_WORKSPACE }}/.npmrc
           ls
           cat .npmrc
       - run: npm ci
